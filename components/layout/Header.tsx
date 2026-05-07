@@ -48,7 +48,7 @@ export default function Header() {
         )}
       >
         <div className="flex items-stretch h-14 md:h-16">
-          <Image src="/favicon.ico" alt="Hungary Skateboarding" width={32} height={32} />
+          <Image src="/favicon.ico" alt="Hungary Skateboarding" width={36} height={32} className="pl-1"/>
           {/* Wordmark */}
           <Link
             href="/"
